@@ -1,11 +1,45 @@
 
 
+export class Basket {
+
+    constructor() {
+        this.basketFab = document.querySelector('#basket')
+        this.countBasket = document.querySelector('#basket-count');
+        this.modal = new Modal();
+        this.basket = {}
+        this.addClickListeners();
+    }
+
+    addClickListeners() {
+        this.basketFab.addEventListener('click', () => this.handleClickFab())
+    }
+
+    handleClickFab(){
+        this.modal.openModalBasket();
+    }
+
+    addProduct(card) {
+        // const productName = card.querySelector('.card__title').textContent;
+        console.log(card)
+        this.basketFab.style.display = 'flex';
+        // this.basket[productName] = 1;
+        // console.log(this.basket)
+
+        this.count = this.basket.length;
+        this.countBasket.textContent = this.count;
+    }
+}
+
+
+
 
 export class Catalog {
     constructor() {
         this.cards = document.querySelectorAll('.card');
-        this.btnDetails = document.querySelectorAll('.details')
-        this.modal = new Modal('.backdrop', '.modal-btn-close');
+        this.btnDetails = document.querySelectorAll('.details');
+        this.btnBuy = document.querySelectorAll('.card__button-buy')
+        this.modal = new Modal();
+        this.basket = new Basket();
         this.addClickListeners()
     }
 
@@ -15,26 +49,38 @@ export class Catalog {
         });
 
         this.btnDetails.forEach(btn => {
-            btn.addEventListener('click', event => this.handleClickDetails(event))
-        })
+            btn.addEventListener('click', event => this.handleClickDetails(event));
+        });
+
+        this.btnBuy.forEach(btn => {
+            btn.addEventListener('click', event => this.handleClickBuy(event));
+        });
     }
 
     handleCardClick(event) {
-        this.openModal(event);
+        const card = event.currentTarget.closest('.card');
+        this.modal.openModalProduct(card);
     }
 
-    openModal(event){
-        const card = event.currentTarget;
-        this.modal.toggle(card);
+    openModal(card, event){
+        this.modal.openModal(card, event);
     }
 
     handleClickDetails(event) {
         event.stopPropagation();
-        this.openModal(event);
+        const card = event.currentTarget.closest('.card');
+        if (card) {
+            this.openModal(card, event);
+        }
     }
 
-    handleClickBuy() {
-
+    handleClickBuy(event) {
+        event.stopPropagation();
+        const card = event.currentTarget.closest('.card');
+        this.openModal(card, event);
+        if (card) {
+            this.basket.addProduct(card);
+        }
     }
 }
 
@@ -53,29 +99,45 @@ export function init() {
 document.addEventListener('DOMContentLoaded', init);
 
 export class Modal {
-    constructor(backdropSelector, closeBtnSelector) {
-        this.backdrop = document.querySelector(backdropSelector);
-        this.modalBtnClose = document.querySelector(closeBtnSelector);
+    constructor() {
+        this.backdropProduct = document.querySelector('#modal-product');
+        this.backdropBasket = document.querySelector('#modal-basket');
+        this.btnCloseProduct = document.querySelector('#close-product');
+        this.btnCloseBasket = document.querySelector('#close-basket');
         this.modalTitle = document.querySelector('.modal__title');
         this.modalCode = document.querySelector('.modal__code');
         this.modalPrice = document.querySelector('.modal__price');
-        this.modalDescription = document.querySelector('.modal__description')
-        this.handleClickClose();
+        this.modalDescription = document.querySelector('.modal__description');
+        this.handleClickBtnClose();
     }
 
-    toggle(card) {
-        const isBackdropHidden = this.backdrop.classList.contains('is-hidden');
+    openModal(card, event) {
+        const isBtnDetails = event.currentTarget.classList.contains('details');
 
-        this.backdrop.classList.toggle('is-hidden');
-
-        if (isBackdropHidden) {
-            this.getCategory(card)
+        if (isBtnDetails) {
+            this.openModalProduct(card);
+            this.handleClickOutside(this.backdropProduct);
         } else {
-            this.close();
+            this.openModalBasket();
+            this.handleClickOutside(this.backdropBasket);
         }
     }
 
-    getCategory(card) {
+    openModalBasket() {
+        this.backdropBasket.classList.toggle('is-hidden');
+    }
+
+    openModalProduct(card) {
+        this.backdropProduct.classList.toggle('is-hidden');
+        this.getProductDescription(card);
+        this.closeProductModal();
+    }
+
+    toggle(backdrop) {
+        backdrop.classList.toggle('is-hidden');
+    }
+
+    getProductDescription(card) {
         const cardTitle = card.querySelector('.card__title').textContent;
         const cardCode = card.querySelector('.card__code').textContent;
         const cardPriceOld = card.querySelector('.price__old').textContent;
@@ -91,21 +153,27 @@ export class Modal {
             <p class="price__old">${cardPriceOld}</p>
         `;
         this.modalDescription.appendChild(cardDescriptionCopy);
+        this.btnCloseBasket.addEventListener('click', () => this.toggle(this.backdropBasket));
     }
 
-    close() {
-        const cardDescriptionCopy = this.modalDescription.querySelector('.product');
-
-        this.modalDescription.removeChild(cardDescriptionCopy)
+    closeProductModal() {
+        const isBackdropHidden = this.backdropProduct.classList.contains('is-hidden');
+        if (isBackdropHidden) {
+            const cardDescriptionCopy = this.modalDescription.querySelector('.product');
+            this.modalDescription.removeChild(cardDescriptionCopy)
+        }
     }
 
-    handleClickClose() {
-        this.modalBtnClose.addEventListener('click', () => this.toggle());
-
-        this.backdrop.addEventListener('click', event => {
-            if (event.target === this.backdrop) {
-                this.toggle();
+    handleClickOutside(backdrop) {
+        backdrop.addEventListener('click', event => {
+            if (event.target === backdrop) {
+                this.toggle(backdrop);
             }
         });
+    }
+
+    handleClickBtnClose() {
+        this.btnCloseBasket.addEventListener('click', () => this.toggle(this.backdropBasket));
+        this.btnCloseProduct.addEventListener('click', () => this.toggle(this.backdropProduct));
     }
 }
