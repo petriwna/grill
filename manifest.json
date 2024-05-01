@@ -1,10 +1,24 @@
 {
-  "main.js": "auto/main-c81103ef.js",
+  "main.css": "auto/main.css",
+  "main.js": "auto/main-aa174f46.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
+  "public/images/accessories/mgl-bag1.jpg": "auto/public/images/accessories/mgl-bag1.jpg",
+  "public/images/accessories/skwr-bag-1.jpg": "auto/public/images/accessories/skwr-bag-1.jpg",
   "public/images/93072235.jpg": "auto/public/images/93072235.jpg",
+  "public/images/accessories/grille-cast-iron.jpg": "auto/public/images/accessories/grille-cast-iron.jpg",
   "public/images/70816436.jpg": "auto/public/images/70816436.jpg",
+  "public/images/accessories/skwr-3-93.jpg": "auto/public/images/accessories/skwr-3-93.jpg",
+  "public/images/accessories/skwr-3-80-cev.jpg": "auto/public/images/accessories/skwr-3-80-cev.jpg",
+  "public/images/accessories/opaxalo.jpg": "auto/public/images/accessories/opaxalo.jpg",
+  "public/images/accessories/skwr-2-60tr.jpg": "auto/public/images/accessories/skwr-2-60tr.jpg",
+  "public/images/accessories/stand-kasan.jpg": "auto/public/images/accessories/stand-kasan.jpg",
+  "public/images/accessories/skwr-3-68.jpg": "auto/public/images/accessories/skwr-3-68.jpg",
+  "public/images/accessories/86385555.jpg": "auto/public/images/accessories/86385555.jpg",
+  "public/images/accessories/Kaz_1.jpg": "auto/public/images/accessories/Kaz_1.jpg",
   "public/images/delivery.png": "auto/public/images/delivery.png",
   "index.html": "auto/index.html",
+  "public/images/accessories/skwr-2-60.jpg": "auto/public/images/accessories/skwr-2-60.jpg",
   "public/images/icons.svg": "auto/public/images/icons.svg",
-  "main-c81103ef.js.map": "auto/main-c81103ef.js.map"
+  "main.css.map": "auto/main.css.map",
+  "main-aa174f46.js.map": "auto/main-aa174f46.js.map"
 }
