@@ -1,6 +1,6 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-09899ca2.js",
+  "main.js": "auto/main-37bfcb86.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/images/two-mm/6/IMG_3732.mp4": "auto/public/images/two-mm/6/IMG_3732.mp4",
   "public/images/two-mm/12/4.jpg": "auto/public/images/two-mm/12/4.jpg",
@@ -78,7 +78,7 @@
   "public/images/accessories/mgl-bag1.jpg": "auto/public/images/accessories/mgl-bag1.jpg",
   "public/images/accessories/skwr-bag-1.jpg": "auto/public/images/accessories/skwr-bag-1.jpg",
   "public/images/three-mm/10/mgl-3-10.JPG": "auto/public/images/three-mm/10/mgl-3-10.JPG",
-  "public/images/93072235.jpg": "auto/public/images/93072235.jpg",
+  "public/images/mangal.jpg": "auto/public/images/mangal.jpg",
   "public/images/three-mm/8/1.JPG": "auto/public/images/three-mm/8/1.JPG",
   "public/images/three-mm/6/2.JPG": "auto/public/images/three-mm/6/2.JPG",
   "public/images/three-mm/6/mgl-3-6.JPG": "auto/public/images/three-mm/6/mgl-3-6.JPG",
@@ -96,8 +96,10 @@
   "public/images/delivery.png": "auto/public/images/delivery.png",
   "public/images/three-mm/12/1.jpg": "auto/public/images/three-mm/12/1.jpg",
   "index.html": "auto/index.html",
+  "public/images/logo.png": "auto/public/images/logo.png",
   "public/images/accessories/skwr-2-60.jpg": "auto/public/images/accessories/skwr-2-60.jpg",
   "public/images/icons.svg": "auto/public/images/icons.svg",
+  "public/images/logo.svg": "auto/public/images/logo.svg",
   "main.css.map": "auto/main.css.map",
-  "main-09899ca2.js.map": "auto/main-09899ca2.js.map"
+  "main-37bfcb86.js.map": "auto/main-37bfcb86.js.map"
 }
