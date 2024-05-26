@@ -1,6 +1,6 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-c5fb8dde.js",
+  "main.js": "auto/main-210e9f2b.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/images/two-mm/6/IMG_3732.mp4": "auto/public/images/two-mm/6/IMG_3732.mp4",
   "public/images/two-mm/12/4.jpg": "auto/public/images/two-mm/12/4.jpg",
@@ -55,6 +55,8 @@
   "public/images/two-mm/10/9.jpg": "auto/public/images/two-mm/10/9.jpg",
   "public/images/two-mm/8/19.jpg": "auto/public/images/two-mm/8/19.jpg",
   "public/images/two-mm/8/18.jpg": "auto/public/images/two-mm/8/18.jpg",
+  "public/images/order/sending.png": "auto/public/images/order/sending.png",
+  "public/images/sending.png": "auto/public/images/sending.png",
   "public/images/two-mm/6/mgl-2-6.jpg": "auto/public/images/two-mm/6/mgl-2-6.jpg",
   "public/images/two-mm/6/6.jpg": "auto/public/images/two-mm/6/6.jpg",
   "public/images/two-mm/6/11.jpg": "auto/public/images/two-mm/6/11.jpg",
@@ -67,8 +69,8 @@
   "public/images/two-mm/10/17.jpg": "auto/public/images/two-mm/10/17.jpg",
   "public/images/two-mm/10/5.jpg": "auto/public/images/two-mm/10/5.jpg",
   "public/images/two-mm/10/16.jpg": "auto/public/images/two-mm/10/16.jpg",
-  "public/images/order/sending.png": "auto/public/images/order/sending.png",
-  "public/images/sending.png": "auto/public/images/sending.png",
+  "public/images/delivery.png": "auto/public/images/delivery.png",
+  "public/images/order/delivery.png": "auto/public/images/order/delivery.png",
   "public/images/two-mm/10/4.jpg": "auto/public/images/two-mm/10/4.jpg",
   "public/images/three-mm/6/1.JPG": "auto/public/images/three-mm/6/1.JPG",
   "public/images/three-mm/8/3.JPG": "auto/public/images/three-mm/8/3.JPG",
@@ -100,8 +102,6 @@
   "public/images/accessories/skwr-3-68.jpg": "auto/public/images/accessories/skwr-3-68.jpg",
   "public/images/accessories/86385555.jpg": "auto/public/images/accessories/86385555.jpg",
   "public/images/accessories/Kaz_1.jpg": "auto/public/images/accessories/Kaz_1.jpg",
-  "public/images/delivery.png": "auto/public/images/delivery.png",
-  "public/images/order/delivery.png": "auto/public/images/order/delivery.png",
   "public/images/three-mm/12/1.jpg": "auto/public/images/three-mm/12/1.jpg",
   "index.html": "auto/index.html",
   "public/images/hot.jpg": "auto/public/images/hot.jpg",
@@ -121,5 +121,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-c5fb8dde.js.map": "auto/main-c5fb8dde.js.map"
+  "main-210e9f2b.js.map": "auto/main-210e9f2b.js.map"
 }
