@@ -1,9 +1,10 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-d5be43f4.js",
+  "main.js": "auto/main-d16710fc.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/videos/simple.mp4": "auto/public/videos/simple.mp4",
   "public/images/two-mm/6/IMG_3732.mp4": "auto/public/images/two-mm/6/IMG_3732.mp4",
+  "public/videos/dvs.mp4": "auto/public/videos/dvs.mp4",
   "public/videos/mangal.mp4": "auto/public/videos/mangal.mp4",
   "public/images/two-mm/12/4.jpg": "auto/public/images/two-mm/12/4.jpg",
   "public/images/two-mm/10/1.jpg": "auto/public/images/two-mm/10/1.jpg",
@@ -123,5 +124,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-d5be43f4.js.map": "auto/main-d5be43f4.js.map"
+  "main-d16710fc.js.map": "auto/main-d16710fc.js.map"
 }
