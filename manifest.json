@@ -1,11 +1,13 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-f795885a.js",
+  "main.js": "auto/main-be51836d.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/videos/simple.mp4": "auto/public/videos/simple.mp4",
   "public/images/two-mm/6/IMG_3732.mp4": "auto/public/images/two-mm/6/IMG_3732.mp4",
   "public/videos/dvs.mp4": "auto/public/videos/dvs.mp4",
   "public/videos/mangal.mp4": "auto/public/videos/mangal.mp4",
+  "public/images/property_4.jpg": "auto/public/images/property_4.jpg",
+  "public/images/property_3.jpg": "auto/public/images/property_3.jpg",
   "public/images/two-mm/12/4.jpg": "auto/public/images/two-mm/12/4.jpg",
   "public/images/two-mm/10/1.jpg": "auto/public/images/two-mm/10/1.jpg",
   "public/images/two-mm/10/8.jpg": "auto/public/images/two-mm/10/8.jpg",
@@ -124,5 +126,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-f795885a.js.map": "auto/main-f795885a.js.map"
+  "main-be51836d.js.map": "auto/main-be51836d.js.map"
 }
