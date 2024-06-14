@@ -1,6 +1,6 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-366d64ef.js",
+  "main.js": "auto/main-e5bc960f.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/videos/simple.mp4": "auto/public/videos/simple.mp4",
   "public/images/two-mm/6/IMG_3732.mp4": "auto/public/images/two-mm/6/IMG_3732.mp4",
@@ -108,12 +108,12 @@
   "public/images/accessories/86385555.jpg": "auto/public/images/accessories/86385555.jpg",
   "public/images/accessories/Kaz_1.jpg": "auto/public/images/accessories/Kaz_1.jpg",
   "public/images/three-mm/12/1.jpg": "auto/public/images/three-mm/12/1.jpg",
-  "index.html": "auto/index.html",
   "public/images/hot.jpg": "auto/public/images/hot.jpg",
   "public/images/logo.png": "auto/public/images/logo.png",
   "public/images/accessories/skwr-2-60.jpg": "auto/public/images/accessories/skwr-2-60.jpg",
   "public/favicon/android-chrome-192x192.png": "auto/public/favicon/android-chrome-192x192.png",
   "public/favicon/apple-touch-icon.png": "auto/public/favicon/apple-touch-icon.png",
+  "index.html": "auto/index.html",
   "public/favicon/mstile-150x150.png": "auto/public/favicon/mstile-150x150.png",
   "public/favicon/favicon.ico": "auto/public/favicon/favicon.ico",
   "public/images/order.png": "auto/public/images/order.png",
@@ -127,5 +127,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-366d64ef.js.map": "auto/main-366d64ef.js.map"
+  "main-e5bc960f.js.map": "auto/main-e5bc960f.js.map"
 }
