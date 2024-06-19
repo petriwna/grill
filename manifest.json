@@ -1,6 +1,6 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-e5bc960f.js",
+  "main.js": "auto/main-9e8e0c21.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/videos/simple.mp4": "auto/public/videos/simple.mp4",
   "public/images/two-mm/6/IMG_3732.mp4": "auto/public/images/two-mm/6/IMG_3732.mp4",
@@ -127,5 +127,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-e5bc960f.js.map": "auto/main-e5bc960f.js.map"
+  "main-9e8e0c21.js.map": "auto/main-9e8e0c21.js.map"
 }
