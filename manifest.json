@@ -1,6 +1,6 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-80d6b0a3.js",
+  "main.js": "auto/main-35df2218.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/videos/simple.mp4": "auto/public/videos/simple.mp4",
   "public/videos/dvs.mp4": "auto/public/videos/dvs.mp4",
@@ -21,6 +21,7 @@
   "public/images/order/calling.png": "auto/public/images/order/calling.png",
   "public/images/hot.jpg": "auto/public/images/hot.jpg",
   "public/images/logo.png": "auto/public/images/logo.png",
+  "public/images/hero-section.jpg": "auto/public/images/hero-section.jpg",
   "public/favicon/android-chrome-192x192.png": "auto/public/favicon/android-chrome-192x192.png",
   "public/favicon/apple-touch-icon.png": "auto/public/favicon/apple-touch-icon.png",
   "index.html": "auto/index.html",
@@ -37,5 +38,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-80d6b0a3.js.map": "auto/main-80d6b0a3.js.map"
+  "main-35df2218.js.map": "auto/main-35df2218.js.map"
 }
