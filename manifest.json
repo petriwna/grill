@@ -1,6 +1,6 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-7de6f151.js",
+  "main.js": "auto/main-80d6b0a3.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/videos/simple.mp4": "auto/public/videos/simple.mp4",
   "public/videos/dvs.mp4": "auto/public/videos/dvs.mp4",
@@ -13,6 +13,7 @@
   "public/images/order/delivery.png": "auto/public/images/order/delivery.png",
   "public/images/3.png": "auto/public/images/3.png",
   "public/images/mangal.jpg": "auto/public/images/mangal.jpg",
+  "public/images/hero.jpg": "auto/public/images/hero.jpg",
   "public/images/70816436.jpg": "auto/public/images/70816436.jpg",
   "public/images/6.png": "auto/public/images/6.png",
   "public/images/hhh.png": "auto/public/images/hhh.png",
@@ -36,5 +37,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-7de6f151.js.map": "auto/main-7de6f151.js.map"
+  "main-80d6b0a3.js.map": "auto/main-80d6b0a3.js.map"
 }
