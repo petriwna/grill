@@ -1,6 +1,6 @@
 {
   "main.css": "auto/main.css",
-  "main.js": "auto/main-dd02f8bb.js",
+  "main.js": "auto/main-f7a8b370.js",
   "public/videos/info-video.mp4": "auto/public/videos/info-video.mp4",
   "public/videos/simple.mp4": "auto/public/videos/simple.mp4",
   "public/videos/dvs.mp4": "auto/public/videos/dvs.mp4",
@@ -38,5 +38,5 @@
   "public/favicon/site.webmanifest": "auto/public/favicon/site.webmanifest",
   "public/favicon/browserconfig.xml": "auto/public/favicon/browserconfig.xml",
   "main.css.map": "auto/main.css.map",
-  "main-dd02f8bb.js.map": "auto/main-dd02f8bb.js.map"
+  "main-f7a8b370.js.map": "auto/main-f7a8b370.js.map"
 }
